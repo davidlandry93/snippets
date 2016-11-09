@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# name: document
+# key: doc
+# --
+\documentclass[letterpaper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1.5in]{geometry}
+\usepackage[$1]{babel}
+
+\title{$2}
+\author{David Landry}
+\date{$3}
+
+\begin{document}
+
+\maketitle
+
+$0
+\end{document}

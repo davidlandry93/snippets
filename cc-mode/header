@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: header
+# key: head
+# --
+
+#ifndef ${1:guard}
+#define ${1:guard}
+
+namespace $2 {
+    $0
+}
