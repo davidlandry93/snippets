@@ -2,10 +2,11 @@
 # name: header
 # key: head
 # --
-
-#ifndef ${1:guard}
-#define ${1:guard}
+#ifndef ${1}
+#define ${1}
 
 namespace $2 {
     $0
 }
+
+#endif
