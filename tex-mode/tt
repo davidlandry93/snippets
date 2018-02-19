@@ -1,0 +1,5 @@
+# -*- mode: tex-mode -*-
+# name: texttt
+# key: tt
+# --
+\texttt{$0}
